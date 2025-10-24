@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Stream | Genea Challenge</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            border: 3px solid #444;
+            border-radius: 10px;
+            margin-top: 20px;
+            width: 80%;
+            max-width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>📹 Live Video Stream</h1>
+    <img src="{{ url_for('video_feed') }}" alt="Live Video Stream">
+</body>
+</html>
