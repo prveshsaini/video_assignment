@@ -1,8 +1,8 @@
-🧠 Real-Time Object Detection Video Streaming App
+# Real-Time Object Detection Video Streaming App
 
 This project is a Flask-based web application that streams live video from a webcam (or IP camera) and performs real-time object detection using YOLOv8 from Ultralytics
 
-📁 Project Structure
+## Project Structure
 video_streaming/
 │
 ├── app.py               # Main Flask application
@@ -11,14 +11,14 @@ video_streaming/
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
 
-⚙️ Features
+## Features
 
-✅ Real-time video streaming in browser
-✅ Object detection using YOLOv8 (lightweight yolov8n.pt model)
-✅ Works with webcam or IP camera stream
-✅ Flask-based lightweight web server
+- Real-time video streaming in browser
+- Object detection using YOLOv8 (lightweight yolov8n.pt model)
+- Works with webcam or IP camera stream
+- Flask-based lightweight web server
 
-🧩 Requirements
+## Requirements
 
 Python 3.8 or higher
 
@@ -26,7 +26,7 @@ A working webcam (or an IP camera stream URL)
 
 Internet connection (for downloading YOLO model weights the first time)
 
-📦 Installation
+## Installation
 
 Clone the repository
 
@@ -52,7 +52,7 @@ Flask
 opencv-python
 ultralytics
 
-🚀 Running the App
+## Running the App
 
 Start the Flask server
 
@@ -67,7 +67,7 @@ http://127.0.0.1:5000
 You should see a live video feed with detected objects highlighted in real time.
 
 
-🧠 How It Works
+## How It Works
 
 Flask serves a simple HTML page (index.html) with an embedded video stream.
 
