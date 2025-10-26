@@ -3,6 +3,8 @@
 This project is a Flask-based web application that streams live video from a webcam (or IP camera) and performs real-time object detection using YOLOv8 from Ultralytics
 
 ## Project Structure
+
+```
 video_streaming/
 │
 ├── app.py               # Main Flask application
@@ -10,6 +12,7 @@ video_streaming/
 │   └── index.html       # Frontend HTML page
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
+```
 
 ## Features
 
